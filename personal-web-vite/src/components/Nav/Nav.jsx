@@ -1,4 +1,3 @@
-import reactLogo from '../../../public/assets/react.svg'
 import './nav.css'
 
 export default function Nav () {
@@ -6,9 +5,17 @@ export default function Nav () {
         <header>
             <nav className='nav'>
             
-            <div>
-                <a href="" target="_blank"><img src={reactLogo} className="logo" alt="React logo" /></a>
-            </div>
+                <div className='nav-element'>
+                    <h1 className='nav__logo'>fjct.dev</h1>
+                </div>
+
+                <div className='nav-element'>
+                    <div className='nav__tags'>
+                        <a href="/">About</a>
+                        <a href="/portfolio">Portfolio</a>
+                        <a href="/contact">Contact</a>
+                    </div>
+                </div>
             
             </nav>
         </header>

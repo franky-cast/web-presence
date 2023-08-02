@@ -1,4 +1,33 @@
 .nav{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    min-height: 80px;
+    border: 1px solid red;
+    align-items: center;
+    gap: 1em;
+}
+
+.nav-element {
+    width: 100%;
+}
+
+.nav__logo {
+    margin: 0;
+    width: 100%;    
+}
+
+.nav__tags {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 900px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-element {
+        width: 50%;
+    }
 }

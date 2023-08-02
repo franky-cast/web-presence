@@ -1,6 +1,6 @@
 #root {
   /* might delete */
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
   text-align: center;
 }
 
@@ -10,14 +10,31 @@
   margin: 0 auto;
 }
 
+.linked-in-gif {
+  border-radius: 25px;
+  position: absolute;
+  top: 65vh;
+  right: 85vw;
+}
+.linked-in-gif:hover {
+  filter: drop-shadow(0 0 2em #fff);
+}
+
+.github-png {
+  width: 90px;
+  position: absolute;
+  top: 73vh;
+  right: 79vw;
+}
+.github-png:hover {
+  filter: drop-shadow(0 0 2em #fff);
+}
+
 
 /* Nav.jsx */
 
 /* logo */
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+.icon {
   transition: filter 300ms;
 }
 .logo:hover {
@@ -37,7 +54,10 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .logo {
+  .icon {
     animation: spin infinite 20s ease;
+  }
+  .github-png {
+    animation: spin ease-in 10s reverse;
   }
 }
