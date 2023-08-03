@@ -19,9 +19,9 @@ function App() {
       <a href="https://github.com/franky-cast"><img src={github} alt="linked in anchor tag" className='icon github-png'/></a>
 
       <Routes className="container">
-        <Route exact path="/" element={ <About /> } />
-        <Route exact path="/portfolio" element={ <Portfolio /> } />
-        <Route exact path="/contact" element={ <Contact /> } />
+        <Route exact path={ `${import.meta.env.NETLIFY_URL}/` } element={ <About /> } />
+        <Route exact path={ `${import.meta.env.NETLIFY_URL}/portfolio` } element={ <Portfolio /> } />
+        <Route exact path={ `${import.meta.env.NETLIFY_URL}/contact` } element={ <Contact /> } />
       </Routes>
 
     </Router>
