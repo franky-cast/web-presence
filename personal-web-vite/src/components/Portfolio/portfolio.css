@@ -1,0 +1,21 @@
+.portfolio {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.portfolio-heading{
+    margin-top: 2em;
+}
+
+@media (min-width: 900px) {
+    .portfolio-heading {
+        font-size: 2rem;
+    }
+    .portfolio {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-around;
+    }
+}

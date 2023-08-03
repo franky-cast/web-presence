@@ -6,12 +6,12 @@ export default function Nav () {
             <nav className='nav'>
             
                 <div className='nav-element'>
-                    <h1 className='nav__logo'>fjct.dev</h1>
+                    <a href="/portfolio"><h1 className='nav__logo'>fjct.dev</h1></a>
                 </div>
 
                 <div className='nav-element'>
                     <div className='nav__tags'>
-                        <a href="/">About</a>
+                        <a href="/">About Me</a>
                         <a href="/portfolio">Portfolio</a>
                         <a href="/contact">Contact</a>
                     </div>

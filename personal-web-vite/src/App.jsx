@@ -19,9 +19,9 @@ function App() {
       <a href="https://github.com/franky-cast"><img src={github} alt="linked in anchor tag" className='icon github-png'/></a>
 
       <Routes className="container">
-        <Route exact path="/" render={ () => <About /> } />
-        <Route exact path="/portfolio" render={ () => <Portfolio /> } />
-        <Route exact path="/contact" render={ () => <Contact /> } />
+        <Route exact path="/" element={ <About /> } />
+        <Route exact path="/portfolio" element={ <Portfolio /> } />
+        <Route exact path="/contact" element={ <Contact /> } />
       </Routes>
 
     </Router>

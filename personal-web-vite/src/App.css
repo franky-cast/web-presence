@@ -61,3 +61,14 @@
     animation: spin ease-in 10s reverse;
   }
 }
+
+@media (min-width: 900px) {
+  .linked-in-gif {
+    right: 95vw;
+  }
+
+  .github-png {
+    top: 75vh;
+    right: 93.5vw;
+  }
+}
