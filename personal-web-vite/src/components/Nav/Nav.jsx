@@ -9,7 +9,7 @@ export default function Nav () {
             <nav className='nav'>
         
                 <div className='nav-element'>
-                    <a href="/portfolio"><h1 className='nav__logo'>fjct.dev</h1></a>
+                    <a href="https://www.linkedin.com/in/francisco-castillo-582ab0237/" target='_blank'><h1 className='nav__logo'>fjct.dev</h1></a>
                 </div>        
 
                 <div className='nav-element'>

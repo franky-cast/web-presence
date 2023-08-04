@@ -38,7 +38,7 @@ export default function Card (props) {
         <a href={githubURL} target='_blank' className="card__atag">
             <div className="card">
                 <div className='card__img-container'>
-                    <img src={projectImg} alt={ `User interface for project: ${name}` } className="card__img" />
+                    <img src={projectImg} alt={ `User interface for project: ${name}` } className="card__img" style={ !completed? { opacity: 0.4 } : null }/>
                 </div>
                 <div className="card__info">
                     <p>{name}</p>
