@@ -20,6 +20,6 @@
     .portfolio {
         flex-direction: row;
         gap: 0;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 }
