@@ -1,23 +1,19 @@
 .nav {
-    display: flex;
-    min-height: 80px;
-    justify-content: center;
-    align-items: center;
     padding-top: 1em;
-    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    min-height: 80px;
+    gap: 1.25em;
+    align-items: center;
 }
 
 .nav-element {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: center;
     gap: 1em;
-    /* border: 1px solid red; */
 }
 
-.nav__tag {
-    width: 60%;
-}
 .nav__logo {
     color: #fff;
     font-size: 2.25rem;
@@ -25,47 +21,16 @@
     width: 100%;    
 }
 
-.linked-in-gif {
-    width: 70%;
-    border-radius: 25px;
-}
-.linked-in-gif:hover {
-    filter: drop-shadow(0 0 2em #fff);
-}
-  
-.github-png {
-    width: 100%;
-}
-.github-png:hover {
-    filter: drop-shadow(0 0 2em #fff);
-}
-
-.pc {
-    display: none;
-}
-
 
 @media (min-width: 900px) {
     .nav {
+        flex-direction: row;
         justify-content: space-between;
-        padding: 0 3em 0 3em;
     }
     .nav-element {
         width: 30%;
     }
-    .nav__tag {
-        width: 40%;
-        justify-content: space-evenly;
-        font-size: 1.5rem;
-        gap: 2em;        
-    }
     .nav__logo {
         font-size: 2.5rem;
-    }
-    .pc {
-        display: none;
-    }
-    .mobile {
-        display: none;
     }
 }

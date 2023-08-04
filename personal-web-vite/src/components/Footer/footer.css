@@ -1,4 +1,50 @@
 .footer {
-    background-color: #21222A;
-    height: 75px;
+    background-color: black;
+    margin-top: 3em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1em;
+    display: flex;
+}
+
+.footer a {
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: filter 300ms;
+}
+
+.footer a:hover {
+    opacity: .75;
+    filter: drop-shadow(0 0 2em #fff);
+}
+
+.icon {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.linked-in-gif {
+    margin-top: 0.25em;
+    width: 60%;
+}
+  
+.github-png {
+    width: 100%;
+    background-color: white;
+}
+
+@media (min-width: 900px) {
+    .footer {
+        padding: 3em 0 3em 0;
+    }
+    .footer a {
+        width: 5%;
+    }
+    .icon {
+        border-radius: 100%;
+    }
 }
