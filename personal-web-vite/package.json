@@ -2,7 +2,7 @@
   "name": "personal-web",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://fjct-dev.netlify.app/",
+  "homepage": "https://64cd3d65be3d0c3a750eb265--fjct-dev.netlify.app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
