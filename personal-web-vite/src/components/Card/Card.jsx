@@ -1,7 +1,12 @@
 import './card.css'
 
-import ipAddTrackerImg from '../../../public/assets/ipAddressTracker.png'
-import blackjackwebappimg from '../../../public/assets/blackjackwebapp.png'
+// project images
+import ipAddTrackerImg from '/assets/ipAddressTracker.png'
+import blackjackwebappimg from '/assets/blackjackwebapp.png'
+import logisticReg from '/assets/logistic_regression.png'
+import defaultImg from '/assets/default.png'
+
+
 
 export default function Card (props) {
     const { name, description, githubURL, completed } = props.object
@@ -9,7 +14,7 @@ export default function Card (props) {
     let projectImg
     switch (name) {
         case 'ChillSpots App':
-            projectImg = null
+            projectImg = defaultImg
             break
 
         case 'BlackJack Web App':
@@ -19,10 +24,18 @@ export default function Card (props) {
         case 'IP Address Tracker':
             projectImg = ipAddTrackerImg
             break
+
+        case 'Logistic Regression Model':
+            projectImg = logisticReg
+            break
+        
+        default:
+            projectImg = null
+            break
     }
 
     return (
-        <a href={projectImg} target='_blank' className="card__atag">
+        <a href={githubURL} target='_blank' className="card__atag">
             <div className="card">
                 <div className='card__img-container'>
                     <img src={projectImg} alt={ `User interface for project: ${name}` } className="card__img" />
@@ -30,7 +43,6 @@ export default function Card (props) {
                 <div className="card__info">
                     <p>{name}</p>
                     <p>{description}</p>
-                    <a href={ `${githubURL}` }></a>
                 </div>
             </div>
         </a>

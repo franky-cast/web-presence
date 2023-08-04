@@ -17,21 +17,21 @@ export default function Portfolio () {
         <div>
             <h2 className='portfolio-heading'>Selected projects</h2>
 
-            <div>
+            <div className='project-category'>
                 { fullstackprojects.length > 0 && <h3>Full stack projects</h3> }
                 <div className='portfolio'>
                     {fullstackprojects}
                 </div>
             </div>
 
-            <div>
+            <div className='project-category'>
                 { frontendprojects.length > 0 && <h3>Front end projects</h3> }
                 <div className='portfolio'>
                     {frontendprojects}
                 </div>
             </div>
 
-            <div>
+            <div className='project-category'>
                 { backendprojects.length > 0 && <h3>Back end projects</h3> }
                 <div className='portfolio'>
                     {backendprojects}

@@ -24,5 +24,14 @@ export default [
         deployURL: "https://ip-address-tracer.netlify.app/",
         completed: true,
         type: "f"
+    },
+    {
+        id: '4',
+        name: "Logistic Regression Model",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita eum assumenda tenetur dolor adipisci laboriosam ducimus. Omnis, fuga, iste numquam ad repudiandae esse atque voluptatibus mollitia beatae, voluptatem vitae.",
+        githubURL: "https://github.com/franky-cast/logisitc-regression-model",
+        deployURL: null,
+        completed: true,
+        type: "b"
     }
 ]
