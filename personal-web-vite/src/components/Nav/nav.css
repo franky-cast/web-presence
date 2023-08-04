@@ -1,29 +1,43 @@
 .nav {
     display: flex;
-    flex-direction: column;
     min-height: 80px;
+    justify-content: center;
     align-items: center;
-    gap: 1em;
     padding-top: 1em;
 }
 
 .nav-element {
-    width: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
 
+.nav__tag {
+    width: 60%;
+}
 .nav__logo {
     color: #fff;
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     margin: 0;
     width: 100%;    
 }
 
-.nav__tags {
-    width: 100%;
-    font-size: 1.25rem;
-    display: flex;
-    justify-content: space-around;
+.linked-in-gif {
+    width: 70%;
+    border-radius: 25px;
 }
+.linked-in-gif:hover {
+    filter: drop-shadow(0 0 2em #fff);
+}
+  
+.github-png {
+    width: 100%;
+}
+.github-png:hover {
+    filter: drop-shadow(0 0 2em #fff);
+}
+
 
 @media (min-width: 900px) {
     .nav {
@@ -41,5 +55,8 @@
     }
     .nav__logo {
         font-size: 2.5rem;
+    }
+    .mobile {
+        display: none;
     }
 }

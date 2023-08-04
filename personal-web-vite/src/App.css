@@ -1,6 +1,5 @@
 #root {
   /* might delete */
-  padding: 0 2rem 2rem 2rem;
   text-align: center;
 }
 
@@ -8,26 +7,7 @@
 .container {
   max-width: 1280px;
   margin: 0 auto;
-}
-
-.linked-in-gif {
-  border-radius: 25px;
-  position: absolute;
-  top: 65vh;
-  right: 85vw;
-}
-.linked-in-gif:hover {
-  filter: drop-shadow(0 0 2em #fff);
-}
-
-.github-png {
-  width: 90px;
-  position: absolute;
-  top: 73vh;
-  right: 79vw;
-}
-.github-png:hover {
-  filter: drop-shadow(0 0 2em #fff);
+  padding: 0 2rem 2rem 2rem;
 }
 
 
