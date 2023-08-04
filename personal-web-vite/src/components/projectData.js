@@ -2,7 +2,7 @@ export default [
     {
         id: '1',
         name: "ChillSpots App",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita eum assumenda tenetur dolor adipisci laboriosam ducimus. Omnis, fuga, iste numquam ad repudiandae esse atque voluptatibus mollitia beatae, voluptatem vitae.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita eum assumenda tenetur dolor adipisci laboriosam ducimus.",
         githubURL: "https://github.com/franky-cast/ChillSpots-App",
         completed: false,
         type: "fs"
@@ -10,7 +10,7 @@ export default [
     {
         id: '2',
         name: "BlackJack Web App",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita eum assumenda tenetur dolor adipisci laboriosam ducimus. Omnis, fuga, iste numquam ad repudiandae esse atque voluptatibus mollitia beatae, voluptatem vitae." ,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita eum assumenda tenetur dolor adipisci laboriosam ducimus.",
         githubURL: "https://github.com/franky-cast/Blackjack-Game",
         deployURL: "https://blackjack-web-app.netlify.app/",
         completed: true,
@@ -19,7 +19,7 @@ export default [
     {
         id: '3',
         name: "IP Address Tracker",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita eum assumenda tenetur dolor adipisci laboriosam ducimus. Omnis, fuga, iste numquam ad repudiandae esse atque voluptatibus mollitia beatae, voluptatem vitae.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita eum assumenda tenetur dolor adipisci laboriosam ducimus.",
         githubURL: "https://github.com/franky-cast/ip-address-tracker",
         deployURL: "https://ip-address-tracer.netlify.app/",
         completed: true,
@@ -28,7 +28,7 @@ export default [
     {
         id: '4',
         name: "Logistic Regression Model",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita eum assumenda tenetur dolor adipisci laboriosam ducimus. Omnis, fuga, iste numquam ad repudiandae esse atque voluptatibus mollitia beatae, voluptatem vitae.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita eum assumenda tenetur dolor adipisci laboriosam ducimus.",
         githubURL: "https://github.com/franky-cast/logisitc-regression-model",
         deployURL: null,
         completed: true,

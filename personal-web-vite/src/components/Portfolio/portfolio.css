@@ -1,16 +1,16 @@
 .portfolio {
-    margin: 0 auto;
     display: flex;
-    flex-direction: column;
     gap: 2em;
+
+    padding-top: 2em;
+
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
 }
 
 .portfolio-heading{
     margin-top: 2em;
-}
-
-.project-category {
-    margin-top: 5em;
 }
 
 @media (min-width: 900px) {
