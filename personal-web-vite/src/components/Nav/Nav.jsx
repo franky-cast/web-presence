@@ -13,7 +13,6 @@ export default function Nav () {
                     <div className='nav__tags'>
                         <a href="/">About Me</a>
                         <a href="/portfolio">Portfolio</a>
-                        <a href="/contact">Contact</a>
                     </div>
                 </div>
             
