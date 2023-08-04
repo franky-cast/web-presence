@@ -20,7 +20,7 @@
 }
 
 .card:hover {
-    filter: drop-shadow(0 0 2em #fff);
+    filter: drop-shadow(0 0 2em #535bf2);
 }
 
 .card__img {
@@ -32,6 +32,6 @@
 
 @media (min-width: 900px) {
     .card {
-        max-width: 350px;
+        width: 310px;
     }
 }

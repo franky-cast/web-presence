@@ -20,8 +20,8 @@
         font-size: 2rem;
     }
     .portfolio {
+        padding: 2em 2em 0 2em;
         flex-direction: row;
-        gap: 0;
-        justify-content: space-evenly;
+        gap: 3em;
     }
 }
