@@ -4,7 +4,7 @@ import ipAddTrackerImg from '../../../public/assets/ipAddressTracker.png'
 import blackjackwebappimg from '../../../public/assets/blackjackwebapp.png'
 
 export default function Card (props) {
-    const { name, description, githubURL, deployURL } = props.object
+    const { name, description, githubURL, completed } = props.object
 
     let projectImg
     switch (name) {
@@ -22,7 +22,7 @@ export default function Card (props) {
     }
 
     return (
-        <a href={deployURL} target='_blank' className="card__atag">
+        <a href={projectImg} target='_blank' className="card__atag">
             <div className="card">
                 <div className='card__img-container'>
                     <img src={projectImg} alt={ `User interface for project: ${name}` } className="card__img" />

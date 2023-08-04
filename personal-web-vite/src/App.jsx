@@ -15,8 +15,8 @@ function App() {
     <Router className='app'>
       <Nav />
 
-      <a href="https://www.linkedin.com/in/francisco-castillo-582ab0237/"><img src={linkedIn} alt="linked in anchor tag" className='linked-in-gif'/></a>
-      <a href="https://github.com/franky-cast"><img src={github} alt="linked in anchor tag" className='icon github-png'/></a>
+      {/* <a href="https://www.linkedin.com/in/francisco-castillo-582ab0237/"><img src={linkedIn} alt="linked in anchor tag" className='linked-in-gif'/></a>
+      <a href="https://github.com/franky-cast"><img src={github} alt="linked in anchor tag" className='icon github-png'/></a> */}
 
       <Routes className="container">
         <Route exact path="/" element={ <About /> } />
