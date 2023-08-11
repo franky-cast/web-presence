@@ -4,6 +4,9 @@ import './card.css'
 import ipAddTrackerImg from '/assets/ipAddressTracker.png'
 import blackjackwebappimg from '/assets/blackjackwebapp.png'
 import logisticReg from '/assets/logistic_regression.png'
+import chillspotsimg from '/assets/chillspotsScLogin.png'
+import travelJ from '/assets/travelJournal.png'
+import chromeExt from '/assets/chromeExt.jpeg'
 import defaultImg from '/assets/default.png'
 
 
@@ -14,7 +17,7 @@ export default function Card (props) {
     let projectImg
     switch (name) {
         case 'ChillSpots App':
-            projectImg = defaultImg
+            projectImg = chillspotsimg
             break
 
         case 'BlackJack Web App':
@@ -28,9 +31,17 @@ export default function Card (props) {
         case 'Logistic Regression Model':
             projectImg = logisticReg
             break
-        
+
+        case 'Travel Journal':
+            projectImg = travelJ
+            break
+
+        case 'Leads Chrome Extension':
+            projectImg = chromeExt
+            break
+
         default:
-            projectImg = null
+            projectImg = defaultImg
             break
     }
 

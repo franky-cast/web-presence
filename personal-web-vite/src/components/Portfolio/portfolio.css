@@ -15,6 +15,10 @@
     margin-top: 2em;
 }
 
+.type-heading {
+    margin: 3rem 0 0 0;
+}
+
 @media (min-width: 900px) {
     .portfolio-heading {
         font-size: 2rem;
@@ -23,5 +27,8 @@
         padding: 2em 2em 0 2em;
         flex-direction: row;
         gap: 3em;
+    }
+    .type-heading {
+        margin: 7rem 0 0 0;
     }
 }
