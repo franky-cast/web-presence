@@ -25,8 +25,10 @@
     }
     .portfolio {
         padding: 2em 2em 0 2em;
-        flex-direction: row;
         gap: 3em;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: center;
     }
     .type-heading {
         margin: 7rem 0 0 0;

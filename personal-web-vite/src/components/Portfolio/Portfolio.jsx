@@ -9,7 +9,7 @@ export default function Portfolio () {
     const pythonApps = projects.filter(item => item.type === 'python').map(project => <Card key={project.id} object={project}/>)
 
     return (
-        <div>
+        <div className='container'>
             <h2 className='portfolio-heading'>Selected projects</h2>
             <h2 className='type-heading'>React Apps</h2>
             <div className='portfolio'> 
