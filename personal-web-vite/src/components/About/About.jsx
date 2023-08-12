@@ -10,11 +10,11 @@ export default function About () {
             {/* <p className="about__autobio">
                 SDSU Information Systems Graduate. I do entrepreneurial web dev work while upskilling with personal side projects. Love to travel, explore, and run.
             </p> */}
-            <a href="/work">
+            {/* <a href="/work">
                 <div className="about__button-wrap">
                     <button>Projects</button>
                 </div>
-            </a>
+            </a> */}
 
             <div className="about__segments">
                 <div className="about__world">
